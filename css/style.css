@@ -173,7 +173,7 @@ h3 {
     font-family: 'Oswald', sans-serif;
 	color: #000;
 	margin-top: 0px;
-	font-style: italic;
+	font-style: normal;
 	font-weight: 300;
 	text-transform: none;
 
@@ -190,7 +190,9 @@ h1 {
 	font-size: 40px;
 }
 h2 {
-	font-size: 35px;
+	font-size: 32px;
+}.f-widget-title h2 {
+    white-space: nowrap;
 }
 h3 {
 	font-size: 28px;
@@ -4777,6 +4779,7 @@ color: #fff !important;
 .f-widget-title h2,.footer-widget .widgettitle  {
 font-size: 24px;
 position: relative;
+text-align: center;
 }
 
 .footer-link ul li i {
