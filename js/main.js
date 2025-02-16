@@ -486,10 +486,6 @@ $('.popup-image').magnificPopup({
 	}
 });
 
-/* magnificPopup video view */
-$('.popup-video').magnificPopup({
-	type: 'iframe'
-});
 
 // paroller
 if ($('.paroller').length) {
