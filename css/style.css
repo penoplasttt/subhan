@@ -2835,6 +2835,11 @@ border: 2px solid #000;
 	margin-bottom: 0;
 }
 /* 8. choose */
+
+.portfolio h2 {
+    text-align: center;
+}
+
 .chosse-img {
 	background-size: cover;
 	height: 100%;
