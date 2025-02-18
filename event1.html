@@ -17,15 +17,14 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
     <style>
-        /* Центрируем контейнер */
+
         .gallery-container1 {
             display: flex;
             justify-content: center;
-            padding: 0 150px;
+            padding: 0 10%;
             
         }
 
-        /* Стили для сетки галереи */
         .gallery img {
             width: 100%;
             height: 240px;
@@ -46,7 +45,9 @@
         .home-icon {
         display: flex; 
         justify-content: left;
-        align-items: center; 
+        align-items: center;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
     .home-icon img {
@@ -58,9 +59,11 @@
 <body>
 
 <!-- Галерея -->
-<div class="container mt-5 d-flex align-items-center justify-content-between mb-5">
-    <a href="index.html" class="home-icon"><img src="img/icon/home.png" alt="Домой"></a>
+
+<div class="home-icon mt-5 d-flex align-items-center justify-content-between mb-5">
+    <a href="index.html"><img src="img/icon/home.png" alt="Домой"></a>
     <h2 class="text-center flex-grow-1 mb-0">Event</h2>
+
 </div>
     <div class="gallery-container1">
         <div class="row gallery justify-content-center">
@@ -127,8 +130,10 @@
                     <img src="img/gallery/a (9).jpg" alt="Фото 9">
                 </a>
             </div>
-
-
+        </div>
+    </div>
+            <div class="end"> <h2> Анна Яценко <br>anna_artwork@mail.ru <br> 2025</h2></div>
+      
             <!-- js here -->
             <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="js/vendor/jquery-3.6.0.min.js"></script>
