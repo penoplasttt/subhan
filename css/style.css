@@ -738,12 +738,26 @@ float: right;
     position: relative;
     z-index: 2;
 }
-.home img {
+.home-container {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.home {
     width: 100%;
-    height: 90vh;
+    height: auto;
     max-width: 100%;
     object-fit: contain;
-    object-position: top;
+       
+
+}
+.home img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center;
+    text-align: center;
 }
 
 .home h2 {
